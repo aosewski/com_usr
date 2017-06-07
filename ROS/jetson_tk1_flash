@@ -1,0 +1,18 @@
+## CLONING
+1. cd into the Linux_for_Tegra/bootloader directory that you used when originally flashing the Jetson. Inspect flash.cfg to obtain the partition id of system.img
+2. remove old sys image and download the new image from Jetson. 9 is APP partition image which you should acquire in previous step
+sudo rm system.img
+sudo ./nvflash --read 9 system.img --bl fastboot.bin --go
+3. makesparse system image
+sudo mv system.img system.img.raw
+sudo mksparse -v --fillpattern=0 system.img.raw system.img
+4. compress image
+tar -zcvf my_backup.tar.gz system.img
+
+## RESTORING
+
+1. (from Linux_for_Tegra_tk1 directory) run:
+sudo ./flash.sh -r -S 14580MiB jetson-tk1 mmcblk0p1
+or: 
+sudo ./flash.sh -r -S 14GiB jetson-tk1 mmcblk0p1 # this is original partition size
+
