@@ -44,6 +44,7 @@
 	@@ If you wish to set tracking information for this branch you can do so with:
 
 	    git branch --set-upstream-to=origin/<branch> task-11
+	    git branch branch_name --set-upstream-to your_new_remote/branch_name
 
 	@@ checkout remote branch to local branch 
 			$ git checkout -b <local_branch> <remote_branch>
@@ -288,6 +289,9 @@
 		or:
 		git add <untracked_files>
 		git stash
+
+  It's much BETTER and SAFER to use, cos this will leav all .gitignore'd files!
+    git stash --all
 
 	@@ apply only specific file(s) folder(s)
 

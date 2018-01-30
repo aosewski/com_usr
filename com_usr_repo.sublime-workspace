@@ -1,0 +1,573 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"got",
+				"gotSIGINT"
+			],
+			[
+				"from",
+				"from_to"
+			],
+			[
+				"orb_img",
+				"orb_img_left"
+			],
+			[
+				"cv_img",
+				"cv_img_left"
+			],
+			[
+				"zed_img",
+				"zed_img_left"
+			],
+			[
+				"valg",
+				"valgrind_launch_prefix"
+			],
+			[
+				"bag_camera",
+				"bag_camera_left"
+			],
+			[
+				"visua",
+				"visual_odometry"
+			],
+			[
+				"lau",
+				"launch_files"
+			],
+			[
+				"pkg",
+				"pkgpath"
+			],
+			[
+				"add",
+				"add_argument"
+			],
+			[
+				"robust",
+				"robust_graph_optim"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vim/vim_key_help.md",
+			"settings":
+			{
+				"buffer_size": 1642,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 186.0,
+		"last_filter": "preview",
+		"selected_items":
+		[
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"format",
+				"Clang Format: Format Selection"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"settins",
+				"Preferences: Settings"
+			],
+			[
+				"wrp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/arogowiec/invenco/repos/com_usr",
+		"/home/arogowiec/invenco/repos/com_usr/vim"
+	],
+	"file_history":
+	[
+		"/home/adamo/inv/repos/com_usr/profiling/gperftools.md",
+		"/usr/include/x86_64-linux-gnu/sys/time.h",
+		"/usr/local/zed/include/sl/types.hpp",
+		"/usr/local/zed/include/sl/Camera.hpp",
+		"/home/adamo/inv/playground/zed/zed_sdk_samples/interfaces/openCV/src/main.cpp",
+		"/home/adamo/inv/playground/zed/src/orb_slam2_ros/src/zed_stereo.cpp",
+		"/home/adamo/inv/playground/zed/src/orb_slam2_ros/CMakeLists.txt",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/CMakeLists.txt",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/src/zed_wrapper_nodelet.cpp",
+		"/usr/include/x86_64-linux-gnu/bits/time.h",
+		"/usr/include/c++/5/ctime",
+		"/usr/include/x86_64-linux-gnu/bits/types.h",
+		"/usr/local/include/ORB_SLAM2/System.h",
+		"/home/adamo/inv/playground/zed/zed_sdk_samples/camera control/src/main.cpp",
+		"/home/adamo/inv/playground/zed/zed_slam.sublime-project",
+		"/usr/local/zed/include/sl/Core.hpp",
+		"/usr/local/zed/include/sl/defines.hpp",
+		"/home/adamo/inv/playground/zed/src/orb_slam2_ros/launch/euroc_bag_stereo.launch",
+		"/home/adamo/inv/playground/zed/src/orb_slam2_ros/src/ros_stereo.cc",
+		"/home/adamo/inv/playground/zed/src/orb_slam2_ros/launch/stereo.launch",
+		"/home/adamo/inv/repos/ros_slam_config/host/rtabmap/remote_rtabmapviz.launch",
+		"/home/adamo/inv/repos/ros_slam_config/robot/zed/rtabmap/rtab_config.ini",
+		"/home/adamo/inv/repos/ros_slam_config/host/rtabmap/remote_zed.launch",
+		"/home/adamo/inv/repos/ros_slam_config/robot/zed/rtabmap/rgbd_mapping.launch",
+		"/home/adamo/inv/playground/zed/src/rtabmap_ros/launch/rtabmap.launch",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/launch/zed_tf.launch",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/urdf/zed.urdf",
+		"/home/adamo/inv/repos/ros_slam_config/robot/zed/rtabmap/rtab_cfg_backup.launch",
+		"/home/adamo/inv/repos/ros_slam_config/robot/zed/rtabmap/zed.launch",
+		"/home/adamo/inv/repos/ros_slam_config/robot/kv2/rtabmap/kinect_v2.launch",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/urdf/ZED.stl",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/src/zed_wrapper_node.cpp",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/launch/zed.launch",
+		"/home/adamo/inv/playground/zed/src/zed-ros-wrapper/launch/zed_camera.launch",
+		"/home/adamo/inv/playground/kinect/src/iai_kinect2/kinect2_bridge/launch/kinect2_bridge.launch",
+		"/home/adamo/inv/repos/ros_slam_config/robot/startup_scripts/howto.md",
+		"/home/adamo/inv/repos/ros_slam_config/host/rtabmap/remote_k2.launch",
+		"/home/adamo/inv/playground/zed/src/robot_upstart/src/robot_upstart/install_script.py",
+		"/home/adamo/inv/repos/ros_slam_config/robot/startup_scripts/zed_rviz.launch",
+		"/home/adamo/inv/playground/zed/src/robot_upstart/src/robot_upstart/job.py",
+		"/home/adamo/.bashrc",
+		"/home/adamo/inv/repos/ros_slam_config/robot/kv2/rtabmap/inv_sensor_fusion_kinect_v2.launch",
+		"/home/adamo/.ros/log/2cf9760a-47ab-11e7-b42d-88532e427def/roslaunch-xps-11339.log",
+		"/home/adamo/.ros/log/c2f97de0-47aa-11e7-b42d-88532e427def/roslaunch-xps-11339.log",
+		"/home/adamo/.ros/log/c2f97de0-47aa-11e7-b42d-88532e427def/roslaunch-xps-11248.log",
+		"/home/adamo/.ros/log/4910fb4e-47a9-11e7-b42d-88532e427def/roslaunch-xps-11145.log",
+		"/home/adamo/inv/repos/ros_slam_config/robot/zed/rtabmap/inv_zed.launch",
+		"/home/adamo/.config/sublime-text-3/Packages/User/ros_launch_arg.sublime-snippet",
+		"/home/adamo/.config/sublime-text-3/Packages/User/ros_launch_node.sublime-snippet",
+		"/home/adamo/.config/sublime-text-3/Packages/User/ros_launch_node_param.sublime-snippet",
+		"/home/adamo/.config/sublime-text-3/Packages/C++/Snippets/class-..-(class).sublime-snippet",
+		"/home/adamo/inv/playground/cartographer/src/cartographer_ros/cartographer_ros/launch/offline_backpack_3d.launch",
+		"/home/adamo/inv/playground/cartographer/src/cartographer_ros/cartographer_ros/configuration_files/demo_2d.rviz",
+		"/home/adamo/inv/playground/cartographer/src/cartographer_ros/cartographer_ros/launch/assets_writer_backpack_3d.launch",
+		"/home/adamo/inv/playground/cartographer/src/cartographer_ros/cartographer_ros/launch/demo_backpack_3d.launch",
+		"/home/adamo/inv/playground/cartographer/src/cartographer_ros/cartographer_ros/configuration_files/backpack_3d.lua",
+		"/home/adamo/inv/playground/cartographer/src/cartographer/configuration_files/map_builder.lua",
+		"/home/adamo/inv/playground/cartographer/src/cartographer_ros/cartographer_ros/urdf/backpack_3d.urdf",
+		"/home/adamo/.config/sublime-text-3/Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+		"/home/adamo/inv/playground/kinect/src/rtabmap_ros/launch/invenco/dellPrec1600/remote_rtabmapviz.launch",
+		"/home/adamo/inv/playground/kinect/src/rtabmap_ros/launch/invenco/jetson/kinect_v2.launch",
+		"/home/adamo/inv/playground/kinect/src/rtabmap_ros/launch/invenco/dellPrec1600/rgbd_mapping_kinect2_tuned.launch",
+		"/home/adamo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/adamo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/media/adamo/6079b5b2-08f7-4e1a-ab73-501ba078810b/home/adamo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bad",
+			"'",
+			"instructs",
+			"bash",
+			"GPERFTOOLS",
+			"pkg_search_module",
+			"gperftools_LIBS",
+			"GPERFTOOLS",
+			"gperftools",
+			"Eigen3",
+			"LogError",
+			"RESOLUTION_HD720",
+			"left",
+			"DEPTH_MODE_NONE",
+			"ERROR_CODE",
+			"err",
+			"val",
+			"timespec",
+			"tv_sec",
+			"orb_slam",
+			"SLAM",
+			"CV_",
+			"image_ocv_display",
+			"Image",
+			"Depth",
+			"LIBS",
+			"UTC",
+			"timespec",
+			"BASE",
+			"get",
+			"timespec",
+			"__time_t",
+			"now",
+			"tframe",
+			"ttrack",
+			"MEM_CPU",
+			"CV_8UC1",
+			"CV_32FC1",
+			"getDataType",
+			"())",
+			"VIEW_LEFT",
+			"image_zed",
+			"zed_image",
+			"runtime_parameters",
+			"cv_img_left",
+			"cv_img_right",
+			"img_right",
+			"cv_img_left",
+			"img_left",
+			"cv_img_left",
+			"MAT_TYPE_8U_C4",
+			"zed_img_size",
+			"image_size",
+			"imRight",
+			"imLeft",
+			"im",
+			"ERROR_CODE",
+			"SLAM",
+			"true",
+			"vstrImageLeft",
+			"path_to_settings",
+			"path_to_vocabulary",
+			"bag_filename",
+			"bag_camera_rgb_info_topic",
+			"bag_camera_depth_topic",
+			"bag_camera_rgb_topic",
+			"benchmark_slam",
+			"bag_filename",
+			"play_rate",
+			"false",
+			"image_raw",
+			"zed_right_rgb_topic",
+			"zed_left_rgb_topic",
+			"arg",
+			"  \n",
+			"Odom/FillInfoData",
+			"left_frame_id",
+			"camera_link_to_zed_current",
+			"camera_link",
+			"cfg",
+			"config_path",
+			"zed_depth_frame",
+			"zed_current_frame",
+			"true",
+			"zed_current_frame",
+			"zed_depth_frame",
+			"ZED_left_camera",
+			"zed_current_frame",
+			"\"\n",
+			"zed_initial_frame",
+			"frame_id",
+			"zed_camera_info_topic",
+			"camera_info_topic",
+			"compressed",
+			"approx_sync",
+			"default_value",
+			"visual_odometry",
+			"${arg",
+			"camera_link",
+			"frame_id",
+			"base_frame_id",
+			"camera_link",
+			"base_name",
+			"frame_id",
+			"tf_prefix",
+			"args",
+			"value",
+			"$(arg",
+			"arg",
+			"${arg",
+			"launch_file",
+			"pkgpath",
+			"launch_files",
+			"file",
+			"use_launch_file",
+			"pkgpath",
+			"pkg",
+			"nargs",
+			"false",
+			"executable",
+			"node_pkg",
+			"rviz_cfg",
+			"\n$",
+			"myrobot",
+			"install",
+			"zed_rgb_topic",
+			"rgb_topic",
+			"remap"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vim/vim_key_help.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1591,
+								1591
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "com_usr_repo.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sys/timeh",
+				"include/x86_64-linux-gnu/sys/time.h"
+			],
+			[
+				"time.h",
+				"include/x86_64-linux-gnu/bits/time.h"
+			],
+			[
+				"bits/time.h",
+				"include/x86_64-linux-gnu/bits/time.h"
+			],
+			[
+				"ctime",
+				"include/c++/5/ctime"
+			],
+			[
+				"bits/types.h",
+				"include/x86_64-linux-gnu/bits/types.h"
+			],
+			[
+				"rtabmap.la",
+				"zed/src/rtabmap_ros/launch/rtabmap.launch"
+			],
+			[
+				"rtabmap.lau",
+				"zed/src/rtabmap_ros/launch/rtabmap.launch"
+			],
+			[
+				"tf",
+				"zed/src/zed-ros-wrapper/launch/zed_tf.launch"
+			],
+			[
+				"zed_tf",
+				"zed/src/zed-ros-wrapper/launch/zed_tf.launch"
+			],
+			[
+				"inv_",
+				"ros_slam_config/robot/kv2/rtabmap/kinect_v2.launch"
+			],
+			[
+				"kv2",
+				"ros_slam_config/robot/kv2/rtabmap/kinect_v2.launch"
+			],
+			[
+				"rtabmap",
+				"zed/src/rtabmap_ros/launch/rtabmap.launch"
+			],
+			[
+				"zed.la",
+				"zed/src/zed-ros-wrapper/launch/zed.launch"
+			],
+			[
+				"zed_camera",
+				"zed/src/zed-ros-wrapper/launch/zed_camera.launch"
+			],
+			[
+				"remote_rtabma",
+				"ros_slam_config/host/rtabmap/remote_rtabmapviz.launch"
+			],
+			[
+				"map_",
+				"cartographer/configuration_files/map_builder.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 318.0,
+		"last_filter": "gettimeofday",
+		"selected_items":
+		[
+			[
+				"gettimeofday",
+				"gettimeofday"
+			]
+		],
+		"width": 626.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

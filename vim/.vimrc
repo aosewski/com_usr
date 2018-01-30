@@ -1,5 +1,10 @@
-"turn of line nubmers
+"turn on line nubmers
 set number
+"==========================================================
+" ??
+set tags=./tags;$HOME,tags;$HOME
+"==========================================================
+
 " Always wrap long lines:
 set wrap
 set tabstop=2       " The width of a TAB is set to 2.
@@ -16,6 +21,8 @@ set smarttab	    " Keep ident in new line
 "=========================================================
 " set xml syntax for *.launch files
 autocmd BufNewFile,BufRead *.launch   set syntax=xml
+" set markdown syntax for *.md files
+au BufRead,BufNewFile *.md set filetype=markdown
 
 "change <leader> mapping
 let mapleader = "\<Space>"
@@ -42,7 +49,12 @@ execute pathogen#infect()
 "=========================================================
 " colorscheme
 syntax on
-let g:solarized_termcolors=256
+" let g:solarized_termcolors=256
 set t_Co=256
-set background=dark
-colorscheme solarized
+" set background=light
+" colorscheme solarized
+
+" OceanicNext color scheme configuration
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
+colorscheme OceanicNext

@@ -1,0 +1,7 @@
+sync_jtk1
+
+rsync -ruthv --exclude=.git* --exclude=build* --exclude=devel* . ubuntu@jetsonTK1:inv/playground/pcl
+
+tx2
+
+rsync -ruthvn --exclude=benchmark_slam/.git* --exclude=benchmark_slam/data/* --exclude=benchmark_slam/config/rtab_param* --exclude=benchmark_slam/doc/_* benchmark_slam nvidia@jetsonTx2:playground/kinect/src

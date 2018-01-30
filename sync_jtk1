@@ -1,3 +1,0 @@
-sync_jtk1
-
-rsync -ruthv --exclude=.git* --exclude=build* --exclude=devel* . ubuntu@jetsonTK1:inv/playground/pcl
