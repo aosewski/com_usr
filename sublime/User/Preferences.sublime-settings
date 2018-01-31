@@ -1,0 +1,33 @@
+{
+	"added_words":
+	[
+		"odometrii",
+		"odometria"
+	],
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_cycle": true,
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"copy_with_empty_selection": false,
+	"dictionary": "Packages/User/Polish.dic",
+	"draw_centered": true,
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		100
+	],
+	"show_definitions": false,
+	"spell_check": false,
+	"tab_completion": false,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"wombat_color_blue": true,
+	"wombat_dirty_bottom_bar_blue": true,
+	"wombat_sidebar_font_xlarge": true,
+	"word_wrap": true,
+	"wrap_width": 80
+}

@@ -1,0 +1,7 @@
+<snippet>
+  <name>ROS launch arg</name>
+  <content><![CDATA[<arg name="${1:arg_name}"       default="${2:arg_value}"/>]]></content>
+  <tabTrigger>rarg</tabTrigger>
+  <scope>source.xml, text.xml</scope>
+  <description>Inserts new argument.</description>
+</snippet>

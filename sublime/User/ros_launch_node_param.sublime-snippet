@@ -1,0 +1,7 @@
+<snippet>
+  <name>ROS launch node param</name>
+  <content><![CDATA[<param name="${1:param_name}" type="str"  value="${2:param_value}"/>]]></content>
+  <tabTrigger>rprm</tabTrigger>
+  <scope>source.xml, text.xml</scope>
+  <description>Inserts new node's param.</description>
+</snippet>

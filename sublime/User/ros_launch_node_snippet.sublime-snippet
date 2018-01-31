@@ -1,0 +1,8 @@
+<snippet>
+  <name>ROS Node</name>
+  <content><![CDATA[<node pkg="${1:pkg_name}" type="${2:executable}" name="${3:node_name}">
+</node>]]></content>
+  <tabTrigger>rnd</tabTrigger>
+  <scope>source.xml, text.xml</scope>
+  <description>Inserts new node.</description>
+</snippet>

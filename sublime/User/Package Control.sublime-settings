@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoPEP8",
+		"C++11",
+		"CiteBibtex",
+		"Clang Format",
+		"CMakeEditor",
+		"CUDA C++",
+		"DocBlockr_Python",
+		"DoxyDoc",
+		"GitGutter",
+		"LaTeXTools",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SyncedSideBar",
+		"Theme - Soda",
+		"Wombat Theme"
+	]
+}
