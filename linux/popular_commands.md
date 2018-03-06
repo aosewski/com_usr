@@ -37,7 +37,7 @@ Disk /dev/sda: 160.0 GB, 160041885696 bytes
 2. _Optional_: you can erase drive content with:
     ```bash
     sudo dd if=/dev/zero of=/dev/sdb bs=4k && sync
-    ```
+    ````
     Replace __/dev/sdb__ with you corresponding device. This will take some time. It may pretend to stuck - just be patient.
 3. Make new partition table in the device `sudo fdisk /dev/sdb`. Then press letter `o` to create a new empty DOS partition table.
 4. Make a new partition. 
@@ -53,6 +53,7 @@ Disk /dev/sda: 160.0 GB, 160041885696 bytes
     ```bash
     mkdosfs -F 32 -I /dev/_your_partition_name_
     ```
-
-
-
+### Update alternatives
+    ```
+    sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-3.9 100    --slave /usr/bin/clang++ clang++ /usr/bin/clang++-3.9
+    ```
