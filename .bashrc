@@ -124,7 +124,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source /opt/ros/kinetic/setup.bash
-export PATH="$PATH:/home/arogowiec/.local/bin:/usr/local/cuda-8.0/bin"
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64:/usr/local/lib"
-
